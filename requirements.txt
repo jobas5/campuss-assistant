@@ -1,0 +1,15 @@
+# Python 3.11 recommended (3.10 minimum — the MCP SDK needs it)
+openai>=1.40
+python-dotenv>=1.0
+pypdf>=5.0
+faiss-cpu>=1.8
+sentence-transformers>=3.0
+streamlit>=1.40
+pandas>=2.0
+rank_bm25>=0.2.2
+mcp[cli]>=2.0
+openai-agents>=0.20
+pydantic>=2.6
+fastapi>=0.110
+uvicorn>=0.29
+langfuse>=3.0        # Module 13 (optional)

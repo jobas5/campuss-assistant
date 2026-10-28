@@ -1,0 +1,11 @@
+.env
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+.venv/
+venv/
+index/
+*.db
+outbox/
+eval_results*.csv
+.DS_Store

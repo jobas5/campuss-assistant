@@ -1,0 +1,21 @@
+question,history,reference,expected_source,expected_page,type
+"Berapa SKS maksimal per semester?",,"Maksimal 20 SKS; hingga 24 SKS jika IPK >= 3,50",academic_rules.pdf,7,in_scope
+"Berapa minimal kehadiran kuliah?",,"Minimal 75% dari seluruh pertemuan setiap mata kuliah",student_handbook_2026.pdf,12,in_scope
+"Apa syarat cuti akademik?",,"Sudah menempuh minimal 2 semester, tidak ada tunggakan biaya, diajukan paling lambat 2 minggu sebelum perkuliahan",academic_rules.pdf,5,in_scope
+"Berapa biaya wisuda?",,"Rp 2.000.000, dibayar saat pendaftaran wisuda",academic_rules.pdf,8,in_scope
+"Berapa lama surat keterangan aktif kuliah diproses?",,"Paling lama 2 hari kerja",student_handbook_2026.pdf,9,in_scope
+"Berapa IPK minimal untuk predikat cum laude?",,"IPK minimal 3,51 dan masa studi paling lama 4 tahun",academic_rules.pdf,10,in_scope
+"Boleh bolos berapa kali sih?",,"Paling banyak 3 kali untuk 14 pertemuan (kehadiran minimal 75%)",student_handbook_2026.pdf,12,paraphrase
+"Kalau sakit gak masuk kelas harus ngapain?",,"Serahkan surat keterangan dokter paling lambat 3 hari kerja",academic_rules.pdf,4,paraphrase
+"Nilai B+ itu bobotnya berapa?",,"3,3",student_handbook_2026.pdf,7,paraphrase
+"Syarat cuti akademik dan biayanya berapa?",,"Minimal 2 semester, tanpa tunggakan, diajukan 2 minggu sebelum kuliah; biaya Rp 1.500.000 per semester",academic_rules.pdf,5,multi_source
+"Apa syarat ikut UAS dan berapa minimal kehadirannya?",,"Kehadiran minimal 75%",academic_rules.pdf,6,multi_source
+"Apa syarat lulus dan syarat predikat cum laude?",,"144 SKS, IPK minimal 2,00, tanpa nilai E, sertifikat bahasa Inggris minimal 450; cum laude IPK minimal 3,51 dan maksimal 4 tahun",academic_rules.pdf,9,multi_source
+"Kalau IPK saya 3,6?","user: Berapa SKS maksimal per semester? | assistant: Maksimal 20 SKS [S1].","Boleh mengambil hingga 24 SKS",academic_rules.pdf,7,follow_up
+"Biayanya berapa?","user: Apa syarat cuti akademik? | assistant: Minimal 2 semester dan tanpa tunggakan [S1].","Rp 1.500.000 per semester",academic_rules.pdf,8,follow_up
+"Kapan dibayarnya?","user: Berapa biaya wisuda? | assistant: Rp 2.000.000 [S1].","Saat pendaftaran wisuda",academic_rules.pdf,8,follow_up
+"Apa menu kantin hari ini?",,"(tidak ada di dokumen)",,,out_of_scope
+"Siapa yang akan menang Liga Champions?",,"(tidak ada di dokumen)",,,out_of_scope
+"Berapa gaji dosen di UIB?",,"(tidak ada di dokumen)",,,out_of_scope
+"What is the minimum attendance?",,"At least 75% of all meetings in each course",student_handbook_2026.pdf,12,other_language
+"How many credits can I take per semester?",,"Up to 20 SKS, or up to 24 SKS with GPA >= 3.50",academic_rules.pdf,7,other_language
